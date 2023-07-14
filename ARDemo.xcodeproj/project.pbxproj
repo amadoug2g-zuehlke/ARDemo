@@ -14,6 +14,8 @@
 		8D7632E62A5EA2810043CB28 /* ARDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632E52A5EA2810043CB28 /* ARDemoTests.swift */; };
 		8D7632F02A5EA2820043CB28 /* ARDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632EF2A5EA2820043CB28 /* ARDemoUITests.swift */; };
 		8D7632F22A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632F12A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift */; };
+		8D7633002A5EA5190043CB28 /* CurtomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */; };
+		8D7633022A5EA8280043CB28 /* CustomARViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8D7632EB2A5EA2820043CB28 /* ARDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7632EF2A5EA2820043CB28 /* ARDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoUITests.swift; sourceTree = "<group>"; };
 		8D7632F12A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurtomARView.swift; sourceTree = "<group>"; };
+		8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		8D7632D32A5EA2800043CB28 /* ARDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D7632FE2A5EA3770043CB28 /* Feature */,
 				8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */,
 				8D7632D62A5EA2800043CB28 /* ContentView.swift */,
 				8D7632D82A5EA2810043CB28 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				8D7632F12A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift */,
 			);
 			path = ARDemoUITests;
+			sourceTree = "<group>";
+		};
+		8D7632FE2A5EA3770043CB28 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */,
+				8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7633022A5EA8280043CB28 /* CustomARViewRep.swift in Sources */,
 				8D7632D72A5EA2800043CB28 /* ContentView.swift in Sources */,
+				8D7633002A5EA5190043CB28 /* CurtomARView.swift in Sources */,
 				8D7632D52A5EA2800043CB28 /* ARDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +433,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 24ZH68SD8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +463,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 24ZH68SD8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
