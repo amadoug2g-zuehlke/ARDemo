@@ -11,6 +11,18 @@
 		8D1AEF292A617D75008D951A /* USDZPlacementViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AEF282A617D75008D951A /* USDZPlacementViewRep.swift */; };
 		8D1AEF2B2A617D8A008D951A /* USDZPlacementDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AEF2A2A617D8A008D951A /* USDZPlacementDisplayView.swift */; };
 		8D1AEF2D2A61859B008D951A /* pie_lemon_meringue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */; };
+		8D1AEF3B2A61A50E008D951A /* sneaker_pegasustrail.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF2F2A61A50A008D951A /* sneaker_pegasustrail.usdz */; };
+		8D1AEF3C2A61A50E008D951A /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF302A61A50B008D951A /* teapot.usdz */; };
+		8D1AEF3D2A61A50E008D951A /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF312A61A50B008D951A /* toy_car.usdz */; };
+		8D1AEF3E2A61A50E008D951A /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF322A61A50B008D951A /* tv_retro.usdz */; };
+		8D1AEF3F2A61A50E008D951A /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF332A61A50B008D951A /* wateringcan.usdz */; };
+		8D1AEF402A61A50E008D951A /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF342A61A50C008D951A /* toy_biplane_idle.usdz */; };
+		8D1AEF412A61A50E008D951A /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF352A61A50C008D951A /* flower_tulip.usdz */; };
+		8D1AEF422A61A50E008D951A /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF362A61A50C008D951A /* fender_stratocaster.usdz */; };
+		8D1AEF432A61A50E008D951A /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF372A61A50D008D951A /* gramophone.usdz */; };
+		8D1AEF442A61A50E008D951A /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF382A61A50D008D951A /* robot_walk_idle.usdz */; };
+		8D1AEF452A61A50E008D951A /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF392A61A50D008D951A /* chair_swan.usdz */; };
+		8D1AEF462A61A50E008D951A /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF3A2A61A50E008D951A /* sneaker_airforce.usdz */; };
 		8D7632D52A5EA2800043CB28 /* ARDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */; };
 		8D7632D72A5EA2800043CB28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632D62A5EA2800043CB28 /* ContentView.swift */; };
 		8D7632D92A5EA2810043CB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7632D82A5EA2810043CB28 /* Assets.xcassets */; };
@@ -46,6 +58,18 @@
 		8D1AEF282A617D75008D951A /* USDZPlacementViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZPlacementViewRep.swift; sourceTree = "<group>"; };
 		8D1AEF2A2A617D8A008D951A /* USDZPlacementDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZPlacementDisplayView.swift; sourceTree = "<group>"; };
 		8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pie_lemon_meringue.usdz; sourceTree = "<group>"; };
+		8D1AEF2F2A61A50A008D951A /* sneaker_pegasustrail.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_pegasustrail.usdz; sourceTree = "<group>"; };
+		8D1AEF302A61A50B008D951A /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		8D1AEF312A61A50B008D951A /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		8D1AEF322A61A50B008D951A /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		8D1AEF332A61A50B008D951A /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		8D1AEF342A61A50C008D951A /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		8D1AEF352A61A50C008D951A /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		8D1AEF362A61A50C008D951A /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		8D1AEF372A61A50D008D951A /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		8D1AEF382A61A50D008D951A /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		8D1AEF392A61A50D008D951A /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		8D1AEF3A2A61A50E008D951A /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		8D7632D12A5EA2800043CB28 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoApp.swift; sourceTree = "<group>"; };
 		8D7632D62A5EA2800043CB28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +145,26 @@
 			path = USDZManipulation;
 			sourceTree = "<group>";
 		};
+		8D1AEF2E2A61869A008D951A /* USDZ Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AEF392A61A50D008D951A /* chair_swan.usdz */,
+				8D1AEF362A61A50C008D951A /* fender_stratocaster.usdz */,
+				8D1AEF352A61A50C008D951A /* flower_tulip.usdz */,
+				8D1AEF372A61A50D008D951A /* gramophone.usdz */,
+				8D1AEF382A61A50D008D951A /* robot_walk_idle.usdz */,
+				8D1AEF3A2A61A50E008D951A /* sneaker_airforce.usdz */,
+				8D1AEF2F2A61A50A008D951A /* sneaker_pegasustrail.usdz */,
+				8D1AEF302A61A50B008D951A /* teapot.usdz */,
+				8D1AEF342A61A50C008D951A /* toy_biplane_idle.usdz */,
+				8D1AEF312A61A50B008D951A /* toy_car.usdz */,
+				8D1AEF322A61A50B008D951A /* tv_retro.usdz */,
+				8D1AEF332A61A50B008D951A /* wateringcan.usdz */,
+				8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */,
+			);
+			path = "USDZ Files";
+			sourceTree = "<group>";
+		};
 		8D7632C82A5EA2800043CB28 = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +188,7 @@
 		8D7632D32A5EA2800043CB28 /* ARDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */,
+				8D1AEF2E2A61869A008D951A /* USDZ Files */,
 				8D7633032A61303D0043CB28 /* View */,
 				8D7632FE2A5EA3770043CB28 /* Feature */,
 				8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */,
@@ -303,9 +347,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1AEF422A61A50E008D951A /* fender_stratocaster.usdz in Resources */,
+				8D1AEF462A61A50E008D951A /* sneaker_airforce.usdz in Resources */,
 				8D7632DC2A5EA2810043CB28 /* Preview Assets.xcassets in Resources */,
+				8D1AEF442A61A50E008D951A /* robot_walk_idle.usdz in Resources */,
+				8D1AEF3B2A61A50E008D951A /* sneaker_pegasustrail.usdz in Resources */,
 				8D7632D92A5EA2810043CB28 /* Assets.xcassets in Resources */,
+				8D1AEF412A61A50E008D951A /* flower_tulip.usdz in Resources */,
+				8D1AEF452A61A50E008D951A /* chair_swan.usdz in Resources */,
+				8D1AEF3E2A61A50E008D951A /* tv_retro.usdz in Resources */,
+				8D1AEF402A61A50E008D951A /* toy_biplane_idle.usdz in Resources */,
+				8D1AEF432A61A50E008D951A /* gramophone.usdz in Resources */,
 				8D1AEF2D2A61859B008D951A /* pie_lemon_meringue.usdz in Resources */,
+				8D1AEF3C2A61A50E008D951A /* teapot.usdz in Resources */,
+				8D1AEF3D2A61A50E008D951A /* toy_car.usdz in Resources */,
+				8D1AEF3F2A61A50E008D951A /* wateringcan.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

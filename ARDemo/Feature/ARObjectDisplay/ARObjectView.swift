@@ -22,18 +22,21 @@ class ARObjectView : ARView, ObservableObject {
         self.init(frame: UIScreen.main.bounds)
     }
     
+    func clearScene(anchor: AnchorEntity) {
+        scene.removeAnchor(anchor)
+    }
+    
     func placeBlueBlock() {
         let box = MeshResource.generateBox(size: 0.1)
         let material = SimpleMaterial(color: .blue, isMetallic: false)
         let entity = ModelEntity(mesh: box, materials: [material])
         
         entity.transform.translation = SIMD3<Float>(0, -0.1, -1)
-
         
-        let anchor = AnchorEntity(plane: .vertical)
+        //let anchor = AnchorEntity(plane: .vertical)
+        let anchor = AnchorEntity(world: .zero)
 
         anchor.addChild(entity)
-        
         scene.addAnchor(anchor)
     }
     
@@ -44,9 +47,10 @@ class ARObjectView : ARView, ObservableObject {
         
         entity.transform.translation = SIMD3<Float>(0, -0.1, -1)
 
-        let anchor = AnchorEntity(plane: .horizontal)
-        anchor.addChild(entity)
+        //let anchor = AnchorEntity(plane: .horizontal)
+        let anchor = AnchorEntity(world: .zero)
         
+        anchor.addChild(entity)
         scene.addAnchor(anchor)
     }
     
@@ -56,7 +60,7 @@ class ARObjectView : ARView, ObservableObject {
         let entity = ModelEntity(mesh: box, materials: [material])
         
         entity.transform.translation = SIMD3<Float>(0, -0.1, -1)
-        entity.transform.rotation = simd_quatf(angle: .pi/4, axis: SIMD3<Float>(0, 1, 0)) // Rotates the object by 45 degrees around the y-axis
+        entity.transform.rotation = simd_quatf(angle: .pi/4, axis: SIMD3<Float>(0, 1, 0))
         
         let anchor = AnchorEntity(world: .zero)
         anchor.addChild(entity)
