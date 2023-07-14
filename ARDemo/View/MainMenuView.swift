@@ -12,7 +12,7 @@ struct MainMenuView: View {
         OptionCardData(title: "AR Object Display", iconName: "cube.fill", destination: AnyView(ARObjectDisplayView())),
         OptionCardData(title: "Bring Objects into AR", iconName: "camera.fill", destination: nil),
         OptionCardData(title: "Parametric 3D Room Scans", iconName: "house.fill", destination: nil),
-        OptionCardData(title: "Manipulate USDZ Files", iconName: "wand.and.stars.inverse", destination: nil),
+        OptionCardData(title: "Manipulate USDZ Files", iconName: "wand.and.stars.inverse", destination: AnyView(USDZFilePlacementView())),
     ]
 
     var body: some View {

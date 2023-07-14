@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1AEF232A6167B1008D951A /* USDZPlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AEF222A6167B1008D951A /* USDZPlacementView.swift */; };
+		8D1AEF292A617D75008D951A /* USDZPlacementViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AEF282A617D75008D951A /* USDZPlacementViewRep.swift */; };
+		8D1AEF2B2A617D8A008D951A /* USDZPlacementDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AEF2A2A617D8A008D951A /* USDZPlacementDisplayView.swift */; };
+		8D1AEF2D2A61859B008D951A /* pie_lemon_meringue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */; };
 		8D7632D52A5EA2800043CB28 /* ARDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */; };
 		8D7632D72A5EA2800043CB28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632D62A5EA2800043CB28 /* ContentView.swift */; };
 		8D7632D92A5EA2810043CB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7632D82A5EA2810043CB28 /* Assets.xcassets */; };
@@ -14,8 +18,8 @@
 		8D7632E62A5EA2810043CB28 /* ARDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632E52A5EA2810043CB28 /* ARDemoTests.swift */; };
 		8D7632F02A5EA2820043CB28 /* ARDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632EF2A5EA2820043CB28 /* ARDemoUITests.swift */; };
 		8D7632F22A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632F12A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift */; };
-		8D7633002A5EA5190043CB28 /* CurtomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */; };
-		8D7633022A5EA8280043CB28 /* CustomARViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */; };
+		8D7633002A5EA5190043CB28 /* ARObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7632FF2A5EA5190043CB28 /* ARObjectView.swift */; };
+		8D7633022A5EA8280043CB28 /* ARObjectViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7633012A5EA8280043CB28 /* ARObjectViewRep.swift */; };
 		8D7633052A6130B70043CB28 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7633042A6130B70043CB28 /* MainMenuView.swift */; };
 		8D7633072A6131070043CB28 /* ARObjectDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7633062A6131070043CB28 /* ARObjectDisplayView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D1AEF222A6167B1008D951A /* USDZPlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZPlacementView.swift; sourceTree = "<group>"; };
+		8D1AEF282A617D75008D951A /* USDZPlacementViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZPlacementViewRep.swift; sourceTree = "<group>"; };
+		8D1AEF2A2A617D8A008D951A /* USDZPlacementDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZPlacementDisplayView.swift; sourceTree = "<group>"; };
+		8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pie_lemon_meringue.usdz; sourceTree = "<group>"; };
 		8D7632D12A5EA2800043CB28 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoApp.swift; sourceTree = "<group>"; };
 		8D7632D62A5EA2800043CB28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,8 +56,8 @@
 		8D7632EB2A5EA2820043CB28 /* ARDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7632EF2A5EA2820043CB28 /* ARDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoUITests.swift; sourceTree = "<group>"; };
 		8D7632F12A5EA2820043CB28 /* ARDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurtomARView.swift; sourceTree = "<group>"; };
-		8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRep.swift; sourceTree = "<group>"; };
+		8D7632FF2A5EA5190043CB28 /* ARObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectView.swift; sourceTree = "<group>"; };
+		8D7633012A5EA8280043CB28 /* ARObjectViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectViewRep.swift; sourceTree = "<group>"; };
 		8D7633042A6130B70043CB28 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		8D7633062A6131070043CB28 /* ARObjectDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +87,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1AEF242A617BF0008D951A /* ARObjectDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				8D7632FF2A5EA5190043CB28 /* ARObjectView.swift */,
+				8D7633012A5EA8280043CB28 /* ARObjectViewRep.swift */,
+				8D7633062A6131070043CB28 /* ARObjectDisplayView.swift */,
+			);
+			path = ARObjectDisplay;
+			sourceTree = "<group>";
+		};
+		8D1AEF252A617C2F008D951A /* ObjectsToAR */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjectsToAR;
+			sourceTree = "<group>";
+		};
+		8D1AEF262A617C4B008D951A /* RoomScanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RoomScanner;
+			sourceTree = "<group>";
+		};
+		8D1AEF272A617C57008D951A /* USDZManipulation */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AEF222A6167B1008D951A /* USDZPlacementView.swift */,
+				8D1AEF282A617D75008D951A /* USDZPlacementViewRep.swift */,
+				8D1AEF2A2A617D8A008D951A /* USDZPlacementDisplayView.swift */,
+			);
+			path = USDZManipulation;
+			sourceTree = "<group>";
+		};
 		8D7632C82A5EA2800043CB28 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +144,7 @@
 		8D7632D32A5EA2800043CB28 /* ARDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D1AEF2C2A61859B008D951A /* pie_lemon_meringue.usdz */,
 				8D7633032A61303D0043CB28 /* View */,
 				8D7632FE2A5EA3770043CB28 /* Feature */,
 				8D7632D42A5EA2800043CB28 /* ARDemoApp.swift */,
@@ -140,8 +183,10 @@
 		8D7632FE2A5EA3770043CB28 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				8D7632FF2A5EA5190043CB28 /* CurtomARView.swift */,
-				8D7633012A5EA8280043CB28 /* CustomARViewRep.swift */,
+				8D1AEF272A617C57008D951A /* USDZManipulation */,
+				8D1AEF262A617C4B008D951A /* RoomScanner */,
+				8D1AEF252A617C2F008D951A /* ObjectsToAR */,
+				8D1AEF242A617BF0008D951A /* ARObjectDisplay */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -150,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				8D7633042A6130B70043CB28 /* MainMenuView.swift */,
-				8D7633062A6131070043CB28 /* ARObjectDisplayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,6 +305,7 @@
 			files = (
 				8D7632DC2A5EA2810043CB28 /* Preview Assets.xcassets in Resources */,
 				8D7632D92A5EA2810043CB28 /* Assets.xcassets in Resources */,
+				8D1AEF2D2A61859B008D951A /* pie_lemon_meringue.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +332,12 @@
 			files = (
 				8D7633052A6130B70043CB28 /* MainMenuView.swift in Sources */,
 				8D7633072A6131070043CB28 /* ARObjectDisplayView.swift in Sources */,
-				8D7633022A5EA8280043CB28 /* CustomARViewRep.swift in Sources */,
+				8D1AEF2B2A617D8A008D951A /* USDZPlacementDisplayView.swift in Sources */,
+				8D7633022A5EA8280043CB28 /* ARObjectViewRep.swift in Sources */,
 				8D7632D72A5EA2800043CB28 /* ContentView.swift in Sources */,
-				8D7633002A5EA5190043CB28 /* CurtomARView.swift in Sources */,
+				8D1AEF232A6167B1008D951A /* USDZPlacementView.swift in Sources */,
+				8D7633002A5EA5190043CB28 /* ARObjectView.swift in Sources */,
+				8D1AEF292A617D75008D951A /* USDZPlacementViewRep.swift in Sources */,
 				8D7632D52A5EA2800043CB28 /* ARDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
