@@ -30,7 +30,8 @@ class CustomARView : ARView, ObservableObject {
         entity.transform.translation = SIMD3<Float>(0, -0.1, -0.5)
 
         
-        let anchor = AnchorEntity(plane: .vertical)
+        //let anchor = AnchorEntity(plane: .vertical)
+        let anchor = AnchorEntity(world: .zero)
         anchor.addChild(entity)
         
         scene.addAnchor(anchor)
@@ -44,7 +45,7 @@ class CustomARView : ARView, ObservableObject {
         entity.transform.translation = SIMD3<Float>(0, -0.1, -0.5)
 
         
-        let anchor = AnchorEntity(plane: .horizontal)
+        let anchor = AnchorEntity(world: .zero)
         anchor.addChild(entity)
         
         scene.addAnchor(anchor)
